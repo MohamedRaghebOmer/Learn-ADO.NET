@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../FindSingleContact_GetOneRowFromTable/FindSingleContact_GetOneRowFromTable.csproj" Id="5265fc95-7381-4dca-9360-dcfd753b43ee" />
+  <Project Path="../ParameterizedQuery/ParameterizedQuery.csproj" Id="af395caf-95cd-4e9f-905c-51cdd22c87ea" />
+  <Project Path="../ParameterizedQueryWith_Like/ParameterizedQueryWith_Like.csproj" Id="c2b5e271-eba4-4768-8af8-ff5bbbd4fbdf" />
+  <Project Path="../RetrieveSingleValue_ExecuteScalar/RetrieveSingleValue_ExecuteScalar.csproj" Id="6853865c-98b2-4edf-97c3-ea8f0f8e3303" />
+  <Project Path="GetAllContacts.csproj" Id="1ecd3b32-02ec-47ec-9cf4-b11b09d3fb99" />
+</Solution>
