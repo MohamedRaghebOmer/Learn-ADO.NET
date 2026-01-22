@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="../ClearData/ClearData.csproj" />
+  <Project Path="../ColumnProperties/ColumnProperties.csproj" />
   <Project Path="../PrimaryKey/PrimaryKey.csproj" />
   <Project Path="../UpdateRows/UpdateRows.csproj" />
   <Project Path="DeleteRows.csproj" />
