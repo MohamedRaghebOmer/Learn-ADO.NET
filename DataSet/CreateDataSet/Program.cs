@@ -5,7 +5,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        DataTable Employees = new DataTable();
+        DataTable Employees = new DataTable("Employees");
 
         Employees.Columns.Add("Id", typeof(int));
         Employees.Columns.Add("Name", typeof(string));
@@ -19,7 +19,7 @@ internal class Program
         Employees.Rows.Add(4, "Ahmed", "Egypt", 25000m, new DateTime(2010, 3, 10));
         Employees.Rows.Add(5, "Basem", "Egypt", 28000m, new DateTime(2011, 6, 5));
 
-        DataTable Departments = new DataTable();
+        DataTable Departments = new DataTable("Departments");
 
         Departments.Columns.Add("DepartmentId", typeof(int));
         Departments.Columns.Add("DepartmentName", typeof(string));
@@ -37,7 +37,7 @@ internal class Program
         dataSet.Tables.Add(Departments);
 
         Console.WriteLine("Printing Employees table data from data set:\n");
-        foreach(DataRow row in dataSet.Tables[0].Rows)
+        foreach(DataRow row in dataSet.Tables["Employees"].Rows)
         {
             Console.WriteLine(
                    $"Id: {row["Id"]}, " +
@@ -49,7 +49,7 @@ internal class Program
         }
 
         Console.WriteLine("\nPrinting Department table data from data set:\n");
-        foreach (DataRow row in dataSet.Tables[1].Rows)
+        foreach (DataRow row in dataSet.Tables["Departments"].Rows)
         {
             Console.WriteLine(
                $"DepartmentId: {row["DepartmentId"]}, " +

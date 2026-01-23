@@ -1,5 +1,8 @@
 <Solution>
+  <Project Path="../../DataAdapter/CreateDataAdpaterAndUseIt/CreateDataAdpaterAndUseIt.csproj" />
+  <Project Path="../../DataSet/CreateDataSet/CreateDataSet.csproj" />
   <Project Path="../FilterData/FilterData.csproj" />
   <Project Path="../SortData/SortData.csproj" />
+  <Project Path="C:/Users/VICTUS/Downloads/DataAdapter Example/DataAdapter Example/DataAdapter Example.csproj" />
   <Project Path="CreateDataView.csproj" />
 </Solution>
