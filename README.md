@@ -1,6 +1,6 @@
 # ADO.NET Technical Lab 🧪
 
-This repository is a professional technical laboratory dedicated to mastering **ADO.NET** and database connectivity within the .NET ecosystem. It covers both **Connected** and **Disconnected** architectures, focusing on performance, security, and scalable data access patterns. 
+This repository is a professional technical laboratory dedicated to mastering **ADO.NET** and database connectivity within the .NET ecosystem. It covers both **Connected** and **Disconnected** architectures, focusing on performance, security, and scalable data access patterns.  
 
 ## 🚀 Key Modules & Implementations
 The lab is organized into modular projects, each demonstrating a core ADO.NET competency:
