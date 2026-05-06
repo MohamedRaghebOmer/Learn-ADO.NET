@@ -5,7 +5,7 @@ This repository is a professional technical laboratory dedicated to mastering **
 ## 🚀 Key Modules & Implementations
 The lab is organized into modular projects, each demonstrating a core ADO.NET competency:
 
-### 🔒 Data Security & Commands
+### 🔒 Data Security & Commands 
 - **Parameterized Queries:** Implementation of secure SQL execution to prevent **SQL Injection** attacks.
 - **ExecuteScalar & ExecuteNonQuery:** Efficient handling of single-value retrievals and data modifications (Insert/Update/Delete).
 - **Auto-Number Retrieval:** Techniques for capturing identity values post-insertion.
